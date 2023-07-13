@@ -1,0 +1,26 @@
+body {
+    background-color: #fffaf7; 
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.pet-img {
+    max-height: 600px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.pet-name {
+    font-size: 2.5rem;
+}
+
+.pet-fact {
+    font-size: 1.6rem;
+}
+
+.pet-link-container {
+    margin-bottom: 75px;
+}
