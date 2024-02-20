@@ -14,22 +14,28 @@
   <body>
     <div class="form-box">
       <h2>Submit a fun fact!</h2>
-      <form>
+      <form action="/facts" method="POST">
         <div class="user-box">
-          <input type="text" name="" required="" />
-          <label>Pet Species</label>
+          <input type="text" name="submitter" required="" />
+          <label>Your Name</label>
         </div>
         <div class="user-box">
-          <input type="text" name="" required="" />
+          <input type="text" name="fact" required="" />
           <label>Fact</label>
         </div>
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Submit
-        </a>
+        <div class="button-box">
+          <button
+            type="submit"
+            class="submit-button"
+            name="new-fact-submit-button"
+            value="Submit">
+            Submit
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </form>
     </div>
   </body>

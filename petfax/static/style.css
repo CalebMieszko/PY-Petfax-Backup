@@ -1,7 +1,36 @@
-body {
-    background-color: #fffaf7; 
-    text-align: center;
+html {
+    height: 100%;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fffaf7;
+    background: linear-gradient(#141e30, #243b55);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    width: 100%;
+}
+
+a {
+    color: rgb(250 222 93);
+}
+
+a:visited {
+    color: rgb(172, 145, 25);
+}
+
+a:hover {
+    color: rgb(250, 234, 161);
+}
+
 
 .title {
     font-size: 60px;
